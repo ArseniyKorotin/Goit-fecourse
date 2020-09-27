@@ -1,0 +1,67 @@
+.newton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 1200px;
+    margin: 30px auto 0 auto;
+}
+
+.head {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.menu_item_list {
+    color: #95e1d3;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.new {
+width: 490px;
+}
+
+.gidonline {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.jann {
+text-decoration: none;
+text-transform: uppercase;
+list-style: none;
+padding-bottom: 13px;
+border-bottom: 2px solid
+transparent;
+}
+
+.kant {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2e5d9;
+    text-transform: uppercase;
+}
+
+.kant:hover {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+/* .kant::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #f38181;
+    margin: 32px auto 0 auto;
+ } */
+
+
+.din {
+   
+}

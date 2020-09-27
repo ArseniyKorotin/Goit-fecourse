@@ -1,0 +1,138 @@
+.main_sad {
+    width: 1137px;
+    margin: 0 auto;
+}
+
+.section_sand {
+   
+}
+
+.tijakds {
+    font-size: 24px;
+    font-weight: 500px; 
+    text-align: center;
+    margin-top: 178px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.save {
+    font-size: 24px;
+    font-weight: 500px; 
+    text-align: center;
+    margin-top: 22px;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.save::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 32px auto 0 auto;
+ }
+
+.wrapp {
+}
+
+ .card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 66px;
+}
+
+.img-fest {
+}
+
+.divn {
+
+}
+
+.height_h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif 'Roboto', sans-serif;
+    color: #737373;
+    margin-left: 50px;
+}
+
+.jaaann {
+    width: 269px;
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 43px;
+    margin-bottom: 39px;
+}
+
+.texts_wrap {
+    
+}
+
+.din {
+   margin-bottom: 92px; 
+}
+
+
+.texts {
+    font-size: 15pt;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.imag {
+    
+}
+
+.wrap {
+    margin-top: 92px;
+    margin-right: 24px;
+}
+
+.divs {
+    display: flex;
+}
+
+.nafta {
+    margin-top: 30px;
+    text-align: center;
+    color: #737373;
+}
+
+
+.desk {
+    color: #333333;
+    text-transform: uppercase;
+}
+
+
+.friend {
+    color: #c6c6c6;
+}
+
+.colortext {
+    color: red;
+}
+
+.surprise {
+    margin-top: 107px;
+}
+
+.surprise::before {
+    content: '';
+    display: block;
+    width: 1200px;
+    height: 1px;
+    background-color: #b3b3b3;
+    margin: 32px auto 0 auto;
+    margin-bottom: 24px;
+}
+
+.jock {
+    margin-bottom: 82px;
+}
