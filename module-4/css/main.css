@@ -46,6 +46,7 @@
 }
 
 .img-fest {
+    
 }
 
 .divn {
@@ -58,7 +59,8 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif 'Roboto', sans-serif;
     color: #737373;
-    margin-left: 50px;
+    margin-left: 67px;
+    margin-top: 20px;
 }
 
 .jaaann {
@@ -66,8 +68,8 @@
     color: #b3b3b3;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-left: 43px;
-    margin-bottom: 39px;
+    margin-left: 67px;
+    margin-bottom: 59px;
 }
 
 .texts_wrap {
