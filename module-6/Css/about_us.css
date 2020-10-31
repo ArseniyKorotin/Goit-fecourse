@@ -1,0 +1,71 @@
+.form {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input_name {
+    width: 455px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 21px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.input_name::placeholder {
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.input_name:focus {
+    border: none;
+    outline: none;
+}
+
+.form_select {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.input_email {}
+
+.input_subject {
+    width: 455px;
+}
+
+.form_type {
+    width: 455px;
+}
+
+.message {
+    width: 455px;
+    height: 244px;
+}
+
+.input_submit {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    padding: 25px 47px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.main_card_wrapp {
+    background-color: #222222;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url(../images/Map_Image@1X.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 115px;
+}

@@ -1,0 +1,50 @@
+.newton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 1200px;
+    margin: 55px auto 0 auto;
+}
+
+.head {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+
+.menu_item_list {
+    color: #fed136;
+    font-size: 26pt;
+    font-weight: 700;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.new {
+    width: 490px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    padding-bottom: 31px;
+}
+
+.item_2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item_2:hover {
+    color: #fede7f;
+}
