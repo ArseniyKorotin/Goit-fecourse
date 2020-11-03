@@ -1,16 +1,14 @@
-.tear {
-    margin: 0 auto;
-    text-align: center;
+.team {
 }
 
 .cards_wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 90px;
 }
 
 .card {
     width: 380px;
+    margin-right: 30px;
 }
 
 .card_container {
@@ -19,6 +17,11 @@
 
 .team_photo {
     width: 380px;
+}
+
+.card_container:hover .team_photo {
+    transform: translate(-10px, -10px);
+    transition: 200ms linear;
 }
 
 .team_card_gradient {
@@ -77,6 +80,27 @@
     transform: translate(-50%, -50%);
 }
 
-.team_name {}
+.last_parts {
+    margin-top: 30px;
+    text-align: center;
+}
 
-.team_position {}
+.team_name {
+    color: #484848;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+.team_position {
+    color: #c6c6c6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+    color: #b3b3b3;
+    text-align: center;
+}

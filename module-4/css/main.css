@@ -1,21 +1,17 @@
 .main_sad {
     width: 1137px;
     margin: 0 auto;
+    padding-top: 160px;
 }
 
-.section_sand {
-   
-}
-
-.tijakds {
+.text_wrapp {
     font-size: 24px;
     font-weight: 500px; 
     text-align: center;
-    margin-top: 178px;
     font-family: 'Kaushan Script', cursive;
 }
 
-.save {
+.copyright {
     font-size: 24px;
     font-weight: 500px; 
     text-align: center;
@@ -26,16 +22,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.save::after {
+.text_position {
+    font-size: 15pt;
+    color: #b3b3b3;
+    text-align: center;
+}
+
+.copyright::after {
     content: '';
     display: block;
     width: 60px;
     height: 3px;
     background-color: #f38181;
     margin: 32px auto 0 auto;
- }
+}
 
 .wrapp {
+    display: flex;
+    width: 330px;
+    margin-bottom: 101px;
 }
 
  .card {
@@ -45,50 +50,35 @@
     margin-top: 66px;
 }
 
-.img-fest {
-    
-}
-
-.divn {
-
+.picture {
+    margin-right: 28px;
+    width: 32px;
+    height: 32px;
 }
 
 .height_h3 {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #737373;
-    margin-left: 67px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.jaaann {
-    width: 269px;
+.heading {
     color: #b3b3b3;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin-left: 67px;
-    margin-bottom: 59px;
 }
 
-.texts_wrap {
-    
-}
-
-.din {
+.excerpt {
    margin-bottom: 92px; 
 }
 
-
-.texts {
+.text_position {
     font-size: 15pt;
     color: #b3b3b3;
     text-align: center;
-}
-
-.imag {
-    
 }
 
 .wrap {
@@ -96,45 +86,27 @@
     margin-right: 24px;
 }
 
-.divs {
+.lead {
     display: flex;
 }
 
-.nafta {
+.last_parts {
     margin-top: 30px;
     text-align: center;
     color: #737373;
 }
 
-
-.desk {
+.team_name {
     color: #333333;
     text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
-
-.friend {
+.team_position {
     color: #c6c6c6;
-}
-
-.colortext {
-    color: red;
-}
-
-.surprise {
-    margin-top: 107px;
-}
-
-.surprise::before {
-    content: '';
-    display: block;
-    width: 1200px;
-    height: 1px;
-    background-color: #b3b3b3;
-    margin: 32px auto 0 auto;
-    margin-bottom: 24px;
-}
-
-.jock {
-    margin-top: 82px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
 }

@@ -1,10 +1,18 @@
-.newton {
+.header {
+    padding-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.header_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
     width: 1200px;
-    margin: 30px auto 0 auto;
+    margin: 0 auto;
 }
 
 .head {
@@ -20,26 +28,24 @@
     font-weight: 700;
 }
 
-.new {
+.navigation {
 width: 490px;
 }
 
-.gidonline {
+.list {
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
-.jann {
+.item {
 text-decoration: none;
 text-transform: uppercase;
 list-style: none;
-padding-bottom: 13px;
-border-bottom: 2px solid
-transparent;
+border-bottom: 12px solid transparent;
 }
 
-.kant {
+.item_2 {
     font-size: 14px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
@@ -47,7 +53,10 @@ transparent;
     text-transform: uppercase;
 }
 
-.kant:hover {
-    color: tomato;
-    border-bottom: 2px solid tomato;
+.item_2:hover {
+    border-bottom: 2px solid #f38181;
+    text-decoration: none;
+    color: #f38181;
+    padding-bottom: 12px;
+    width: 50px;
 }
