@@ -1,6 +1,4 @@
-.main_sad {
-    width: 1137px;
-    margin: 0 auto;
+.main_content_wrapp {
     padding-top: 160px;
 }
 
@@ -56,12 +54,12 @@
     height: 32px;
 }
 
-.height_h3 {
+.caption {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
-    color: #737373;
+    color:#333333;
     margin-bottom: 20px;
 }
 
@@ -76,9 +74,12 @@
 }
 
 .text_position {
-    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 0 140px;
     color: #b3b3b3;
     text-align: center;
+    font-weight: 400;
 }
 
 .wrap {
@@ -109,4 +110,14 @@
     font-weight: 100;
     font-style: italic;
     font-size: 15px;
+}
+
+.section_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.subject_wrapp_content {
+    width: 1200px;
+    margin: 0 auto;
 }
